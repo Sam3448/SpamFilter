@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/SamZhang/Documents/Capstone/Models/runs/lstmmodel/sentiment.ckpt"
+all_model_checkpoint_paths: "/Users/SamZhang/Documents/Capstone/Models/runs/lstmmodel/sentiment.ckpt"
