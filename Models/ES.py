@@ -89,7 +89,7 @@ def KNN(response, posTag, negTag):
         elif curLabel == negTag:
             negScore += curScore
 
-    print("pos score : %.3f, neg score : %.3f" % (posScore, negScore))
+    print("pos score : %.3f, neg score : %.3f \n" % (posScore, negScore))
     return posTag if posScore >= negScore else negTag
 
 
