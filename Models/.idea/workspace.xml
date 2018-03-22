@@ -14,8 +14,8 @@
       <file leaf-file-name="ES.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="91" column="4" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+            <state relative-caret-position="344">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -28,6 +28,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>extract_text</find>
+      <find>six chances</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -97,6 +98,23 @@
               <item name="Models" type="b2602c69:ProjectViewProjectNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
               <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
+              <item name="cnnmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
+              <item name="lstmmodel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,10 +206,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runs/cnnmodel/prediction.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="91" column="4" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        <state relative-caret-position="344">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
