@@ -32,7 +32,7 @@ def make_training_set(path):
     total_count = 0
     
     for mail_name in mails_in_dir:
-        if not mail_name.startswith('SMS'):
+        if mail_name.startswith('.DS'):
             continue
 
         for message in fileinput.input(path + mail_name):
