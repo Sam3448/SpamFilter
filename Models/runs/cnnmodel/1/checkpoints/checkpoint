@@ -1,0 +1,4 @@
+model_checkpoint_path: "/Users/SamZhang/Documents/Capstone/Models/runs/cnnmodel/1/checkpoints/model-150"
+all_model_checkpoint_paths: "/Users/SamZhang/Documents/Capstone/Models/runs/cnnmodel/1/checkpoints/model-50"
+all_model_checkpoint_paths: "/Users/SamZhang/Documents/Capstone/Models/runs/cnnmodel/1/checkpoints/model-100"
+all_model_checkpoint_paths: "/Users/SamZhang/Documents/Capstone/Models/runs/cnnmodel/1/checkpoints/model-150"

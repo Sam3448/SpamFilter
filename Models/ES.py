@@ -41,7 +41,8 @@ def index(docHeader, datadirs, docIndex, docType):
 
     for datadir in datadirs:
         sentenceCount = 0
-        header = datadir[datadir.rfind('/') + 1 : ]
+        subdatadir = datadir[: datadir.rfind('/')]
+        header = subdatadir[subdatadir.rfind('/') + 1 : ]
         for filename in os.listdir(datadir):#read in every training file
             if not filename.startswith(docHeader):
                 continue
@@ -77,7 +78,7 @@ def search(query, docIndex, topK):
 
 def KNN(response, posTag, negTag):
     if int(response['hits']['total']) == 0:
-        print("NO HITS")
+        # print("NO HITS")
         return posTag # can't reduce noise, keep result the same
 
     posScore, negScore = 0, 0
@@ -89,7 +90,7 @@ def KNN(response, posTag, negTag):
         elif curLabel == negTag:
             negScore += curScore
 
-    print("pos score : %.3f, neg score : %.3f \n" % (posScore, negScore))
+    # print("pos score : %.3f, neg score : %.3f \n" % (posScore, negScore))
     return posTag if posScore >= negScore else negTag
 
 
