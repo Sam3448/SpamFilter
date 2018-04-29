@@ -6,7 +6,8 @@ from os import listdir
 from os.path import isfile, join
 import fileinput
 
-nltk.data.path = ['/Users/SamZhang/Documents/Capstone/dataset/nltk_data']
+
+nltk.data.path = ['../dataset/nltk_data']
 stopwords = set(stopwords.words('english'))
 
 def get_words(message):
