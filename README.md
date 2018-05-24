@@ -2,6 +2,10 @@
 
 This is the capstone project for JHUISI. Deep learning models are based on LSTM and CNN, and IR is based on Elasticsearch for noise reduction.
 
+This project aims to improve the performance of spam filters, most of which are based on statistical models. **I first introduce deep learning models for text to classification, and then innovatively introduce IR techniques for noise reduction.**
+
+I use precision as the evaluation metric, as it can show the FP rate of the spam filter. The results of both LSTM and CNN models gets much better than the baseline model, which is Naive Bayes. CNN reaches about **98%** percent of precision in both datasets. And noise reduction module based on Elasticsearch further helps the models, with precision improved to nearly **99%**. More detailed information can be reached from: [homepage](http://weichengzhang.co/src/paper/Capstone_final_report.pdf) or [homepage](http://weichengzhang.co).
+
 All copyright reserved to Weicheng Zhang.
 
 ## Dataset
@@ -21,8 +25,4 @@ Proposed models: 1. two layer LSTM + noise reduction; 2. CNN for text + noise re
 ## Run
 
 All tests can be run using ipynb.
-
-## Result
-
-Use only precision as metric for performance evaluation. Details will be revealed later.
 
